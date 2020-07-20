@@ -30,3 +30,18 @@ sum(x, na.rm=TRUE)    # this way we can ignore NA and NaN values
 mean(x, na.rm=TRUE)
 
 prod(x, na.rm=TRUE)
+
+
+## Sample From a Population
+
+# Sample 2 items from x
+sample(x, 2)
+
+# Sample with replacement
+sample(x, replace = TRUE)
+
+# If we simply pass in a positive number n, it will sample from 1:n without replacement
+sample(10)
+
+# An example to simulate a coin toss for 10 times.
+sample(c("H","T"),10, replace = TRUE)
