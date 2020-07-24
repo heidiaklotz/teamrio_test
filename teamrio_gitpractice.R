@@ -45,3 +45,29 @@ sample(10)
 
 # An example to simulate a coin toss for 10 times.
 sample(c("H","T"),10, replace = TRUE)
+
+
+## Find Minimum and Maximum
+
+x1 <- c(5, 8, 3, 9, 2, 7, 4, 6, 10)
+
+# find the minimum
+min(x1)
+
+# find the maximum
+max(x1)
+
+# find the range
+range(x1)
+
+
+
+
+
+
+
+
+
+
+
+
